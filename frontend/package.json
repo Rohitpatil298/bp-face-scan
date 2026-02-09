@@ -1,0 +1,10 @@
+{
+  "name": "rppg-vitals-frontend",
+  "version": "1.0.0",
+  "description": "rPPG Vitals Frontend",
+  "scripts": {
+    "build": "echo 'No build needed - static files' && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
