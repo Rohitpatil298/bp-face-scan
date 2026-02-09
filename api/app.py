@@ -61,3 +61,7 @@ def create_app() -> FastAPI:
     app.include_router(router)
 
     return app
+
+
+# ── Module-level app instance for production servers (Uvicorn/Gunicorn) ──
+app = create_app()
