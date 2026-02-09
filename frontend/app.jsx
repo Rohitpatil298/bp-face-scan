@@ -4,9 +4,10 @@ const { useState, useEffect, useRef } = React;
 // Configuration
 // ============================================================================
 // Automatically detect environment
-const API_BASE = window.location.hostname === 'localhost' 
-  ? 'http://localhost:8000'
-  : 'https://rppg-vitals-api.onrender.com'; // Update this with your Render URL after deployment
+// const API_BASE = window.location.hostname === 'localhost' 
+//   ? 'http://localhost:8000'
+//   : 'https://rppg-vitals-api.onrender.com'; // Update this with your Render URL after deployment
+const API_BASE = 'https://bp-face-scan.onrender.com';
 
 // ============================================================================
 // API Client
